@@ -1,20 +1,29 @@
 {
-  "to do": [],
-  "in progress": [],
+  "to do": [
+    {
+      "id": 1,
+      "task": "third",
+      "status": "to do",
+      "createdAt": "30.12.2025 22:19",
+      "updatedAt": "30.12.2025 22:19"
+    }
+  ],
+  "in progress": [
+    {
+      "id": 1,
+      "task": "first",
+      "status": "in progress",
+      "createdAt": "30.12.2025 22:19",
+      "updatedAt": "30.12.2025 22:19"
+    }
+  ],
   "done": [
     {
       "id": 1,
-      "task": "hui",
+      "task": "second",
       "status": "done",
-      "createdAt": "(30.12.2025)21:36)",
-      "updatedAt": "(30.12.2025)21:37"
-    },
-    {
-      "id": 2,
-      "task": "hui",
-      "status": "done",
-      "createdAt": "(30.12.2025)21:36)",
-      "updatedAt": "(30.12.2025)21:40"
+      "createdAt": "30.12.2025 22:19",
+      "updatedAt": "30.12.2025 22:19"
     }
   ]
 }

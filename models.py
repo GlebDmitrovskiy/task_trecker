@@ -6,7 +6,7 @@ class Models:
             'id': 1,
             'task': message,
             'status': 'to do',
-            'createdAt': datetime.datetime.now().strftime('(%d.%m.%Y)%H:%M)'),
-            'updatedAt': datetime.datetime.now().strftime('(%d.%m.%Y)%H:%M)')
+            'createdAt': datetime.datetime.now().strftime('%d.%m.%Y %H:%M'),
+            'updatedAt': datetime.datetime.now().strftime('%d.%m.%Y %H:%M')
         }
         return task_model
