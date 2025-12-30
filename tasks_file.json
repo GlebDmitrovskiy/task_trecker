@@ -1,0 +1,20 @@
+{
+  "to do": [],
+  "in progress": [],
+  "done": [
+    {
+      "id": 1,
+      "task": "hui",
+      "status": "done",
+      "createdAt": "(30.12.2025)21:36)",
+      "updatedAt": "(30.12.2025)21:37"
+    },
+    {
+      "id": 2,
+      "task": "hui",
+      "status": "done",
+      "createdAt": "(30.12.2025)21:36)",
+      "updatedAt": "(30.12.2025)21:40"
+    }
+  ]
+}
