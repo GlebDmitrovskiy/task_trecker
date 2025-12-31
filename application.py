@@ -46,6 +46,7 @@ class Application():
         else:
             print(f"Задача с ID {task_id} не найдена в списке.")
 
+
     def update_task(self, task_id: int, message: str):
         """
         Обновляет задачу по её id.
@@ -96,6 +97,23 @@ class Application():
             total += 1
         json_module.dump_json(data)
 
+    def show_task(self, status: str = "to do"):
+        data = json_module.load_json()
+        print(f"{status} задачи:")
+        for task in data[status]:
+            print(task)
+
+    def show_task_in_progress(self, status: str = "in progress"):
+        data = json_module.load_json()
+        print(f"{status} задачи:")
+        for task in data[status]:
+            print(task)
+    def show_task_in_done(self, status: str = "done"):
+        data = json_module.load_json()
+        print(f"{status} задачи:")
+        for task in data[status]:
+            print(task)
+
     #todo везде подавалось task_id, но в коде в некоторых местах есть id_task, исправить на task_id надо
     def _mark(self, task_id: int, status_from: str, status_to: str):
         """
@@ -122,10 +140,10 @@ class Application():
 
 
 app = Application()
-# app.add_task("third")
+#app.add_task("pidar")
 # app.delete_task(1)
 # app.update_task(2, "Pidar")
-# app.mark_in_progress(1)
+#app.mark_in_progress(3)
 #app.mark_in_done(1)
-
+#app.show_task_in_progress()
 

@@ -6,9 +6,24 @@
       "status": "to do",
       "createdAt": "30.12.2025 22:19",
       "updatedAt": "30.12.2025 22:19"
+    },
+    {
+      "id": 2,
+      "task": "\u0447\u043b\u0435\u043d",
+      "status": "to do",
+      "createdAt": "31.12.2025 14:57",
+      "updatedAt": "31.12.2025 14:57"
     }
   ],
-  "in progress": [],
+  "in progress": [
+    {
+      "id": 1,
+      "task": "pidar",
+      "status": "in progress",
+      "createdAt": "31.12.2025 14:57",
+      "updatedAt": "31.12.2025 14:57"
+    }
+  ],
   "done": [
     {
       "id": 1,
