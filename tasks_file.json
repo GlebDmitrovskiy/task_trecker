@@ -8,15 +8,7 @@
       "updatedAt": "30.12.2025 22:19"
     }
   ],
-  "in progress": [
-    {
-      "id": 1,
-      "task": "first",
-      "status": "in progress",
-      "createdAt": "30.12.2025 22:19",
-      "updatedAt": "30.12.2025 22:19"
-    }
-  ],
+  "in progress": [],
   "done": [
     {
       "id": 1,
@@ -24,6 +16,13 @@
       "status": "done",
       "createdAt": "30.12.2025 22:19",
       "updatedAt": "30.12.2025 22:19"
+    },
+    {
+      "id": 2,
+      "task": "first",
+      "status": "done",
+      "createdAt": "30.12.2025 22:19",
+      "updatedAt": "30.12.2025 22:33"
     }
   ]
 }

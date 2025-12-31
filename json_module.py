@@ -1,7 +1,11 @@
 import json
 
+#todo добавить docstring
 class JsonModule:
     def load_json(self):
+        """
+        Функция load выгружает данные из файла
+        """
         with open('tasks_file.json', 'r', encoding='utf-8') as file:
             data = json.load(file)
             return data
